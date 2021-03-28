@@ -1,11 +1,9 @@
 const express = require('express')
-// const bodyParser = require('body-parser')
+
 const cors = require('cors')
 const MongoClient = require('mongodb').MongoClient;
 require('dotenv').config()
 const port = 5000
-
-// const password = emaJohnStore2021;
 const app = express()
 app.use(cors())
 app.use(express.json());
